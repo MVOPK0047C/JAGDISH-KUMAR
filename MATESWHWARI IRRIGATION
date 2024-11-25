@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateshwari Irrigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mateshwari Irrigation</h1>
+        <p>RMGB Bank ke samne, Malwara (R)</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to Mateshwari Irrigation</h2>
+            <p>Your trusted partner in providing quality irrigation solutions.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Mateshwari Irrigation has been providing excellent irrigation solutions for over a decade. We specialize in a variety of irrigation products and services designed to meet the needs of both residential and commercial properties.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Drip Irrigation Systems</li>
+                <li>Sprinkler Systems</li>
+                <li>Irrigation Design and Installation</li>
+                <li>Maintenance Services</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 9983494944</p>
+            <p>Email: info@mateshwariirrigation.com</p>
+            <p>Address: RMGB Bank ke samne, Malwara (R)</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Mateshwari Irrigation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
